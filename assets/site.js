@@ -9,13 +9,66 @@
   };
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  // UI strings per page language (<html lang>). Italian is the default.
+  const STRINGS = {
+    it: {
+      locale: "it-IT",
+      dateNA: "data non disponibile",
+      rateLimit: "rate limit GitHub raggiunto",
+      noResults: "NESSUN RISULTATO",
+      commitsLoaded: (n) => `${n} COMMIT CARICATI`,
+      noMessage: "Commit senza messaggio",
+      openCommit: "Apri commit ↗",
+      noRepoUpdates: "Nessun repository aggiornato disponibile.",
+      empty: "VUOTO",
+      languageNA: "linguaggio n/d",
+      languageNACap: "Linguaggio n/d",
+      push: "push",
+      reposCount: (n) => `${n} REPOSITORY`,
+      languageDataNA: "Dati linguaggi non disponibili.",
+      repoNotFound: "REPOSITORY NON TROVATO NELL'ELENCO PUBBLICO",
+      lastPush: "Ultimo push:",
+      updated: "AGGIORNATI",
+      apiNA: "API NON DISPONIBILE",
+      offline: "OFFLINE",
+      metadataNA: "Metadati GitHub non disponibili.",
+      metadataNACaps: "METADATA NON DISPONIBILI",
+      feedNA: "FEED NON DISPONIBILE"
+    },
+    en: {
+      locale: "en-US",
+      dateNA: "date unavailable",
+      rateLimit: "GitHub rate limit reached",
+      noResults: "NO RESULTS",
+      commitsLoaded: (n) => `${n} COMMITS LOADED`,
+      noMessage: "Commit without a message",
+      openCommit: "Open commit ↗",
+      noRepoUpdates: "No recently updated repositories available.",
+      empty: "EMPTY",
+      languageNA: "language n/a",
+      languageNACap: "Language n/a",
+      push: "push",
+      reposCount: (n) => `${n} REPOSITORIES`,
+      languageDataNA: "Language data unavailable.",
+      repoNotFound: "REPOSITORY NOT FOUND IN THE PUBLIC LIST",
+      lastPush: "Last push:",
+      updated: "UPDATED",
+      apiNA: "API UNAVAILABLE",
+      offline: "OFFLINE",
+      metadataNA: "GitHub metadata unavailable.",
+      metadataNACaps: "METADATA UNAVAILABLE",
+      feedNA: "FEED UNAVAILABLE"
+    }
+  };
+  const t = STRINGS[document.documentElement.lang === "en" ? "en" : "it"];
+
   const byId = (id) => document.getElementById(id);
-  const number = (value) => Number(value || 0).toLocaleString("it-IT");
+  const number = (value) => Number(value || 0).toLocaleString(t.locale);
   const safeDate = (value, options = { dateStyle: "medium" }) => {
-    if (!value) return "data non disponibile";
+    if (!value) return t.dateNA;
     const parsed = new Date(value);
-    if (Number.isNaN(parsed.getTime())) return "data non disponibile";
-    return new Intl.DateTimeFormat("it-IT", options).format(parsed);
+    if (Number.isNaN(parsed.getTime())) return t.dateNA;
+    return new Intl.DateTimeFormat(t.locale, options).format(parsed);
   };
   const escapeText = (value) => String(value ?? "");
 
@@ -26,7 +79,7 @@
       cache: "default"
     });
     if (!response.ok) {
-      const detail = response.headers.get("x-ratelimit-remaining") === "0" ? "rate limit GitHub raggiunto" : `HTTP ${response.status}`;
+      const detail = response.headers.get("x-ratelimit-remaining") === "0" ? t.rateLimit : `HTTP ${response.status}`;
       throw new Error(`${search ? "GitHub Search" : "GitHub API"}: ${detail}`);
     }
     return response.json();
@@ -62,12 +115,12 @@
 
     if (!unique.length) {
       empty.hidden = false;
-      status.textContent = "NESSUN RISULTATO";
+      status.textContent = t.noResults;
       return;
     }
 
     empty.hidden = true;
-    status.textContent = `${unique.length} COMMIT CARICATI`;
+    status.textContent = t.commitsLoaded(unique.length);
     const fragment = document.createDocumentFragment();
 
     unique.slice(0, 8).forEach((item) => {
@@ -75,7 +128,7 @@
       const commit = item.commit || {};
       const author = commit.author || commit.committer || {};
       const date = author.date || commit.committer?.date;
-      const message = String(commit.message || "Commit senza messaggio").split("\n")[0].trim();
+      const message = String(commit.message || t.noMessage).split("\n")[0].trim();
       const fullName = repo.full_name || "repository";
       const sha = String(item.sha || "").slice(0, 7);
 
@@ -113,7 +166,7 @@
       commitLink.href = item.html_url || repo.html_url || `https://github.com/${fullName}`;
       commitLink.target = "_blank";
       commitLink.rel = "noopener noreferrer";
-      commitLink.textContent = "Apri commit ↗";
+      commitLink.textContent = t.openCommit;
       footer.append(shaLabel, commitLink);
 
       body.append(meta, title, footer);
@@ -136,9 +189,9 @@
     if (!recent.length) {
       const li = document.createElement("li");
       li.className = "repo-update-placeholder";
-      li.textContent = "Nessun repository aggiornato disponibile.";
+      li.textContent = t.noRepoUpdates;
       list.append(li);
-      status.textContent = "VUOTO";
+      status.textContent = t.empty;
       return;
     }
 
@@ -152,12 +205,12 @@
       link.rel = "noopener noreferrer";
       link.textContent = repo.name;
       const info = document.createElement("span");
-      info.textContent = [repo.language || "linguaggio n/d", `push ${safeDate(repo.pushed_at)}`].join(" · ");
+      info.textContent = [repo.language || t.languageNA, `${t.push} ${safeDate(repo.pushed_at)}`].join(" · ");
       li.append(link, info);
       fragment.append(li);
     });
     list.append(fragment);
-    status.textContent = `${recent.length} REPOSITORY`;
+    status.textContent = t.reposCount(recent.length);
   }
 
   function renderLanguages(repositories) {
@@ -171,7 +224,7 @@
     if (!entries.length) {
       const span = document.createElement("span");
       span.className = "repo-update-placeholder";
-      span.textContent = "Dati linguaggi non disponibili.";
+      span.textContent = t.languageDataNA;
       container.append(span);
       return;
     }
@@ -205,14 +258,14 @@
     document.querySelectorAll("[data-repo-freshness]").forEach((node) => {
       const repo = byName.get(node.dataset.repoFreshness.toLowerCase());
       if (!repo) {
-        node.textContent = "REPOSITORY NON TROVATO NELL'ELENCO PUBBLICO";
+        node.textContent = t.repoNotFound;
         return;
       }
       node.replaceChildren();
       const language = document.createElement("span");
-      language.textContent = repo.language || "Linguaggio n/d";
+      language.textContent = repo.language || t.languageNACap;
       const updated = document.createElement("span");
-      updated.textContent = `Ultimo push: ${safeDate(repo.pushed_at)}`;
+      updated.textContent = `${t.lastPush} ${safeDate(repo.pushed_at)}`;
       node.append(language, updated);
     });
   }
@@ -232,19 +285,19 @@
       renderRepoUpdates(repositories);
       renderLanguages(repositories);
       renderRepoCardMetadata(repositories);
-      if (statsStatus) statsStatus.textContent = "AGGIORNATI";
+      if (statsStatus) statsStatus.textContent = t.updated;
     } catch (error) {
       if (statsStatus) {
-        statsStatus.textContent = "API NON DISPONIBILE";
+        statsStatus.textContent = t.apiNA;
         statsStatus.title = error.message;
       }
       const updatesStatus = byId("repo-update-status");
-      if (updatesStatus) updatesStatus.textContent = "OFFLINE";
+      if (updatesStatus) updatesStatus.textContent = t.offline;
       const updateList = byId("repo-updates-list");
-      if (updateList) updateList.textContent = "Metadati GitHub non disponibili.";
-      document.querySelectorAll("[data-repo-freshness]").forEach((node) => { node.textContent = "METADATA NON DISPONIBILI"; });
+      if (updateList) updateList.textContent = t.metadataNA;
+      document.querySelectorAll("[data-repo-freshness]").forEach((node) => { node.textContent = t.metadataNACaps; });
       const languages = byId("language-list");
-      if (languages) languages.textContent = "Dati linguaggi non disponibili.";
+      if (languages) languages.textContent = t.languageDataNA;
     }
 
     try {
@@ -263,7 +316,7 @@
         empty.hidden = false;
         empty.title = error.message;
       }
-      if (status) status.textContent = "FEED NON DISPONIBILE";
+      if (status) status.textContent = t.feedNA;
     }
   }
 
