@@ -4,6 +4,7 @@ Open source tools for AI, electronic circuits and smart home automation. Portfol
 
 - 🔭 I’m currently working on:
   - New custom components for Home Assistant: **Universal Notifier**
+  - Agentic AI exploration
   - DIY presence sensor based on LD2410C
   - YAML packages for Home Assistant
 - 📫 For Home Assitant issues:
