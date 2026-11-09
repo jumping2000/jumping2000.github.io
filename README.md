@@ -1,42 +1,61 @@
-# jumping2000 — GitHub Pages portfolio
+### Hi there 👋 ![](https://komarev.com/ghpvc/?username=jumping2000&style=flat-square)
 
-Portfolio statico in HTML, CSS e JavaScript, con estetica Matrix e dashboard GitHub dinamica. Non richiede Node.js, build, framework o backend.
+Open source tools for AI agents, electronic circuits and smart home automation. Portfolio: **[jumping2000.github.io](https://jumping2000.github.io/)**
 
-## Pubblicazione
+- 🔭 I’m currently working on:
+  - New custom components for Home Assistant: **Universal Notifier**
+  - DIY presence sensor based on LD2410C
+  - YAML packages for Home Assistant
+- 📫 How to reach me:
 
-Per ottenere `https://jumping2000.github.io/`:
+[![Websitebadge]][website] [![Forum][forumbadge]][forum] [![telegrambadge]][telegram] [![facebookbadge]][facebook]
 
-1. Crea un repository pubblico chiamato **`jumping2000.github.io`**.
-2. Carica il contenuto di questa cartella nella root del branch `main` (non la cartella contenitore).
-3. Apri **Settings → Pages**.
-4. In **Build and deployment**, scegli **Deploy from a branch**, branch `main`, cartella `/(root)`.
-5. Salva e attendi che GitHub Pages completi il deploy.
+### :zap: Recent Activity
 
-## Funzionalità
+<!--START_SECTION:activity-->
+1. ⭐ Starred [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch)
+2. ⬆️ Pushed to [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+3. 🎉 Merged PR [#15](https://github.com/jumping2000/advancedRAG/pull/15) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+4. 💪 Opened PR [#15](https://github.com/jumping2000/advancedRAG/pull/15) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+5. 🎉 Merged PR [#14](https://github.com/jumping2000/advancedRAG/pull/14) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+<!--END_SECTION:activity-->
 
-- Portfolio selezionato con filtri per AI/Developer Tools, Quant & Data e Smart Home.
-- Statistiche account: repository pubblici, follower e stelle totali sui repository originali (esclusi i fork).
-- Feed degli ultimi commit pubblici attribuiti a `jumping2000`.
-- Elenco dei repository personali aggiornati più di recente.
-- Distribuzione dei linguaggi per numero di repository (non per byte di codice).
-- Stelle, linguaggio principale e ultimo push aggiornati sulle schede progetto.
-- Matrix rain leggero, layout responsive e supporto `prefers-reduced-motion`.
+---
 
-## Dati e limiti delle API
+## Top projects
 
-Il sito interroga direttamente le API REST pubbliche di GitHub, senza token o backend:
+The 10 most popular original repositories, ranked by interactions (stars + forks). Updated automatically every 6 hours.
 
-- `GET /users/jumping2000`
-- `GET /users/jumping2000/repos?per_page=100&sort=pushed&type=owner`
-- `GET /search/commits?q=author:jumping2000&sort=committer-date&order=desc&per_page=8`
+<!--START_SECTION:projects-->
+| # | Project | Description | Language | ⭐ Stars | 🍴 Forks |
+|--:|---------|-------------|----------|-------:|-------:|
+| 1 | [universal_notifier](https://github.com/jumping2000/universal_notifier) | Universal Notifier for Home Assistant - hassiohelp.eu crew | Python | 229 | 9 |
+| 2 | [ha-packages](https://github.com/jumping2000/ha-packages) | Home Assistant Packages | Python | 46 | 3 |
+| 3 | [notifier](https://github.com/jumping2000/notifier) *(archived)* | Appdaemon Notifier Centre for Home Assistant - hassiohelp.eu crew | Python | 32 | 6 |
+| 4 | [elettrodomestici](https://github.com/jumping2000/elettrodomestici) | — | — | 18 | 9 |
+| 5 | [ha-templates](https://github.com/jumping2000/ha-templates) | Home Assistant Template, Blueprint, Jinja, Appdaemon | — | 12 | 0 |
+| 6 | [Home-AssistantConfig](https://github.com/jumping2000/Home-AssistantConfig) | Home Assistant configuration | JavaScript | 4 | 0 |
+| 7 | [esphome_apps](https://github.com/jumping2000/esphome_apps) | ESPhome apps | — | 3 | 0 |
+| 8 | [bticino_circuit](https://github.com/jumping2000/bticino_circuit) | — | — | 2 | 0 |
+| 9 | [ha_gsheets](https://github.com/jumping2000/ha_gsheets) | Appdaemon app to save sensor data on Google Sheets | Python | 2 | 0 |
+| 10 | [jumping2000.github.io](https://github.com/jumping2000/jumping2000.github.io) | — | HTML | 2 | 0 |
+<!--END_SECTION:projects-->
 
-Il feed commit riflette la ricerca GitHub: riguarda commit pubblici indicizzati sul branch predefinito e può non includere commit appena inviati, branch secondari o repository privati. L'API può essere soggetta a rate limit; in caso di errore, il sito mostra uno stato esplicito e un link alla ricerca GitHub, senza inventare dati.
+<br>
 
-Le API sono richieste dal browser di ogni visitatore: non viene salvato alcun dato personale sul sito. Il browser e GitHub possono applicare la propria cache.
+---
 
-## Personalizzazione
+[![Websitebadge]][website] [![Forum][forumbadge]][forum] [![telegrambadge]][telegram] [![facebookbadge]][facebook]
 
-- `index.html`: testi, progetti, collegamenti e contenuti.
-- `assets/site.css`: tema Matrix, componenti, layout e responsive design.
-- `assets/site.js`: filtri, API GitHub, feed attività e animazione Matrix.
-- `assets/favicon.svg`: favicon.
+<!-- ✨ _special_ ✨ -->
+[website]: https://hassiohelp.eu/
+[Websitebadge]: https://img.shields.io/website?down_message=Offline&label=HassioHelp&logoColor=blue&up_message=Online&url=https%3A%2F%2Fhassiohelp.eu
+
+[telegram]: https://t.me/HassioHelp
+[telegrambadge]: https://img.shields.io/badge/Chat-Telegram-blue?logo=Telegram
+
+[facebook]: https://www.facebook.com/groups/2062381507393179/
+[facebookbadge]: https://img.shields.io/badge/Group-Facebook-blue?logo=Facebook
+
+[forum]: https://forum.hassiohelp.eu/
+[forumbadge]: https://img.shields.io/badge/HassioHelp-Forum-blue
