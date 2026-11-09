@@ -16,9 +16,8 @@
   <link rel="alternate" hreflang="x-default" href="https://jumping2000.github.io/">
   <title>jumping // Open Source Projects</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/ibm-plex-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -45,7 +44,7 @@
       <div class="hero-copy">
         <div class="eyebrow"><span class="pulse-dot"></span> OPEN SOURCE PROJECTS <span class="eyebrow-year">// 2026</span></div>
         <h1>Tools for a<br><span>smarter world.</span></h1>
-        <p class="hero-intro"><strong>Open source</strong> tools spanning AI agents, electronic circuits and smart home automation: concrete ideas, reusable code, attention to substance.</p>
+        <p class="hero-intro"><strong>Open source</strong> tools for AI agents, electronic circuits and home automation, written to be reused.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#projects">Explore projects <span aria-hidden="true">↓</span></a>
           <a class="button button-ghost" href="https://github.com/jumping2000" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
@@ -140,7 +139,7 @@
         <div>
           <div class="eyebrow"><span class="section-number">03 /</span> SELECTED REPOSITORIES</div>
           <h2>Featured <span>projects.</span></h2>
-          <p class="section-description">A selection of public repositories, chosen for usefulness, technical content and project direction.</p>
+          <p class="section-description">Five public repositories, picked because they are useful or technically interesting.</p>
         </div>
         <a class="text-link all-repos-link" href="https://github.com/jumping2000?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories <span aria-hidden="true">↗</span></a>
       </div>
@@ -158,7 +157,7 @@
           <div class="project-symbol symbol-sdd" aria-hidden="true"><span>SPEC</span><i>→</i><span>CODE</span></div>
           <h3>SDD Playbook</h3>
           <p class="project-subtitle">Spec-driven development, with verifiable checks.</p>
-          <p class="project-description">A workflow for Claude Code, Codex and GitHub Copilot that guides the development cycle: specifications, planning, tests, implementation and review, with human approvals and deterministic verification.</p>
+          <p class="project-description">A workflow for Claude Code, Codex and GitHub Copilot. It takes a feature from spec to plan, tests, code and review, with human approvals along the way and scripted checks on the results.</p>
           <div class="tag-list"><span>Claude Code</span><span>Codex</span><span>Copilot</span><span>Agent Skills</span></div>
           <div class="card-footer"><span class="repo-meta"><span class="star">★</span> <span data-repo-stat="sdd-playbook">—</span> <span class="repo-stat-label">stars</span></span><a class="repo-link" href="https://github.com/jumping2000/sdd-playbook" target="_blank" rel="noopener noreferrer">Open repository <span aria-hidden="true">↗</span></a></div>
           <div class="repo-freshness" data-repo-freshness="sdd-playbook"><span>LOADING METADATA</span></div>
@@ -169,7 +168,7 @@
           <div class="project-symbol symbol-quants" aria-hidden="true"><span>Σ</span><i>RISK · RETURN</i></div>
           <h3>Quants</h3>
           <p class="project-subtitle">Quantitative research and portfolio analytics in Python.</p>
-          <p class="project-description">Tools and analyses for ETFs, asset allocation, duration, portfolio risk, factors and macro-financial time series. A hands-on lab for evaluating strategies and data with a quantitative approach.</p>
+          <p class="project-description">Notebooks and tools for ETFs, asset allocation, duration, portfolio risk, factors and macro and financial time series. A place to test strategies against data.</p>
           <div class="tag-list"><span>Python</span><span>pandas</span><span>yfinance</span><span>FRED</span><span>Portfolio Analysis</span></div>
           <div class="card-footer"><span class="repo-meta"><span class="star">★</span> <span data-repo-stat="Quants">—</span> <span class="repo-stat-label">stars</span></span><a class="repo-link" href="https://github.com/jumping2000/Quants" target="_blank" rel="noopener noreferrer">Open repository <span aria-hidden="true">↗</span></a></div>
           <div class="repo-freshness" data-repo-freshness="Quants"><span>LOADING METADATA</span></div>
@@ -180,7 +179,7 @@
           <div class="project-symbol symbol-notifier" aria-hidden="true"><span class="notify-ring">◉</span><span class="notify-wave">)))</span></div>
           <h3>Universal Notifier</h3>
           <p class="project-subtitle">A single control center for notifications.</p>
-          <p class="project-description">A custom Home Assistant integration that centralizes sending notifications to Telegram, the Companion App, Alexa, Google Home and other channels, handling messages, TTS and volumes consistently.</p>
+          <p class="project-description">A custom Home Assistant integration that sends notifications to Telegram, the Companion App, Alexa, Google Home and other channels, with the same handling of messages, TTS and volume everywhere.</p>
           <div class="tag-list"><span>Home Assistant</span><span>Python</span><span>HACS</span><span>Telegram</span><span>TTS</span></div>
           <div class="card-footer"><span class="repo-meta"><span class="star">★</span> <span data-repo-stat="universal_notifier">—</span> <span class="repo-stat-label">stars</span></span><a class="repo-link" href="https://github.com/jumping2000/universal_notifier" target="_blank" rel="noopener noreferrer">Open repository <span aria-hidden="true">↗</span></a></div>
           <div class="repo-freshness" data-repo-freshness="universal_notifier"><span>LOADING METADATA</span></div>
@@ -191,7 +190,7 @@
           <div class="project-symbol symbol-packages" aria-hidden="true"><span>{ }</span><i>YAML</i></div>
           <h3>HA Packages</h3>
           <p class="project-subtitle">Packages and automations for Home Assistant.</p>
-          <p class="project-description">Reusable smart home configurations: automations, appliance management and integration with notification systems.</p>
+          <p class="project-description">Home Assistant configurations you can drop in: automations, appliance management and notification hooks.</p>
           <div class="tag-list"><span>Home Assistant</span><span>YAML</span><span>Automation</span><span>AppDaemon</span></div>
           <div class="card-footer"><span class="repo-meta"><span class="star">★</span> <span data-repo-stat="ha-packages">—</span> <span class="repo-stat-label">stars</span></span><a class="repo-link" href="https://github.com/jumping2000/ha-packages" target="_blank" rel="noopener noreferrer">Open repository <span aria-hidden="true">↗</span></a></div>
           <div class="repo-freshness" data-repo-freshness="ha-packages"><span>LOADING METADATA</span></div>
@@ -202,7 +201,7 @@
           <div class="project-symbol symbol-templates" aria-hidden="true"><span>&lt;/&gt;</span><i>JINJA</i></div>
           <h3>HA Templates</h3>
           <p class="project-subtitle">Templates, Blueprints and reusable components.</p>
-          <p class="project-description">A collection of Jinja templates, blueprints, AppDaemon scripts and cards to extend and customize Home Assistant.</p>
+          <p class="project-description">Jinja templates, blueprints, AppDaemon scripts and cards for Home Assistant.</p>
           <div class="tag-list"><span>Jinja</span><span>Blueprint</span><span>AppDaemon</span><span>Python</span></div>
           <div class="card-footer"><span class="repo-meta"><span class="star">★</span> <span data-repo-stat="ha-templates">—</span> <span class="repo-stat-label">stars</span></span><a class="repo-link" href="https://github.com/jumping2000/ha-templates" target="_blank" rel="noopener noreferrer">Open repository <span aria-hidden="true">↗</span></a></div>
           <div class="repo-freshness" data-repo-freshness="ha-templates"><span>LOADING METADATA</span></div>
@@ -211,7 +210,7 @@
 
       <div class="more-repos">
         <div class="more-icon" aria-hidden="true">＋</div>
-        <div><strong>The rest is in the archive.</strong><p>More experiments, configurations and repositories are available on the GitHub profile.</p></div>
+        <div><strong>The rest is in the archive.</strong><p>More experiments and configurations are on the GitHub profile.</p></div>
         <a class="button button-small button-ghost" href="https://github.com/jumping2000?tab=repositories" target="_blank" rel="noopener noreferrer">Explore all <span aria-hidden="true">↗</span></a>
       </div>
     </section>
@@ -222,8 +221,8 @@
         <div class="about-grid">
           <h2>Technology<br>should <span>solve.</span></h2>
           <div class="about-copy">
-            <p>I'm interested in building solutions that simplify work and everyday life: from AI agents to software development tools, from quantitative market research to home automation.</p>
-            <p>I favor pragmatic architectures, reusable components and verifiable results. The repositories collected here tell that story: developer tools, data-driven analysis and concrete automations.</p>
+            <p>I like building things that make work or daily life easier: AI agents, development tools, market research, home automation.</p>
+            <p>I prefer simple architectures, reusable parts and results I can check. The repositories here are what that looks like: developer tools, data analysis, and automations that run at home.</p>
             <a class="text-link" href="https://github.com/jumping2000" target="_blank" rel="noopener noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a>
           </div>
         </div>
@@ -237,7 +236,7 @@
       <p>Built with curiosity <span>✳</span> and a little green code.</p>
       <a href="https://github.com/jumping2000" target="_blank" rel="noopener noreferrer">GITHUB.COM/JUMPING2000 ↗</a>
     </div>
-    <div class="footer-bottom"><span>© <span id="year">2026</span> GIANPIERO / JUMPING2000</span><span>LIVE PUBLIC DATA · NO TRACKERS · STATIC SITE</span></div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> GIANPIERO / JUMPING2000</span><span>LIVE PUBLIC DATA · NO ANALYTICS · NO COOKIES · STATIC SITE</span></div>
   </footer>
   <script src="assets/site.js" defer></script>
 </body>

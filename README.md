@@ -1,12 +1,12 @@
 ### Hi there 👋 ![](https://komarev.com/ghpvc/?username=jumping2000&style=flat-square)
 
-Open source tools for AI agents, electronic circuits and smart home automation. Portfolio: **[jumping2000.github.io](https://jumping2000.github.io/)**
+Open source tools for AI, electronic circuits and smart home automation. Portfolio: **[jumping2000.github.io](https://jumping2000.github.io/)**
 
 - 🔭 I’m currently working on:
   - New custom components for Home Assistant: **Universal Notifier**
   - DIY presence sensor based on LD2410C
   - YAML packages for Home Assistant
-- 📫 How to reach me:
+- 📫 For Home Assitant issues:
 
 [![Websitebadge]][website] [![Forum][forumbadge]][forum] [![telegrambadge]][telegram] [![facebookbadge]][facebook]
 
