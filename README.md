@@ -14,11 +14,11 @@ Open source tools for AI, electronic circuits and smart home automation. Portfol
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch)
-2. ⬆️ Pushed to [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-3. 🎉 Merged PR [#15](https://github.com/jumping2000/advancedRAG/pull/15) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-4. 💪 Opened PR [#15](https://github.com/jumping2000/advancedRAG/pull/15) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-5. 🎉 Merged PR [#14](https://github.com/jumping2000/advancedRAG/pull/14) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+1. ⭐ Starred [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+2. ⭐ Starred [jumping2000/sdd-playbook](https://github.com/jumping2000/sdd-playbook)
+3. ⭐ Starred [jumping2000/picobot](https://github.com/jumping2000/picobot)
+4. ⭐ Starred [jumping2000/jumping2000.github.io](https://github.com/jumping2000/jumping2000.github.io)
+5. ⭐ Starred [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch)
 <!--END_SECTION:activity-->
 
 ---
@@ -37,9 +37,9 @@ The 10 most popular original repositories, ranked by interactions (stars + forks
 | 5 | [ha-templates](https://github.com/jumping2000/ha-templates) | Home Assistant Template, Blueprint, Jinja, Appdaemon | — | 12 | 0 |
 | 6 | [Home-AssistantConfig](https://github.com/jumping2000/Home-AssistantConfig) | Home Assistant configuration | JavaScript | 4 | 0 |
 | 7 | [esphome_apps](https://github.com/jumping2000/esphome_apps) | ESPhome apps | — | 3 | 0 |
-| 8 | [bticino_circuit](https://github.com/jumping2000/bticino_circuit) | — | — | 2 | 0 |
-| 9 | [ha_gsheets](https://github.com/jumping2000/ha_gsheets) | Appdaemon app to save sensor data on Google Sheets | Python | 2 | 0 |
-| 10 | [jumping2000.github.io](https://github.com/jumping2000/jumping2000.github.io) | — | HTML | 2 | 0 |
+| 8 | [jumping2000.github.io](https://github.com/jumping2000/jumping2000.github.io) | Open Source Projects | HTML | 3 | 0 |
+| 9 | [bticino_circuit](https://github.com/jumping2000/bticino_circuit) | — | — | 2 | 0 |
+| 10 | [ha_gsheets](https://github.com/jumping2000/ha_gsheets) | Appdaemon app to save sensor data on Google Sheets | Python | 2 | 0 |
 <!--END_SECTION:projects-->
 
 <br>
