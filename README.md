@@ -30,7 +30,7 @@ The 10 most popular original repositories, ranked by interactions (stars + forks
 <!--START_SECTION:projects-->
 | # | Project | Description | Language | ⭐ Stars | 🍴 Forks |
 |--:|---------|-------------|----------|-------:|-------:|
-| 1 | [universal_notifier](https://github.com/jumping2000/universal_notifier) | Universal Notifier for Home Assistant - hassiohelp.eu crew | Python | 229 | 9 |
+| 1 | [universal_notifier](https://github.com/jumping2000/universal_notifier) | Universal Notifier for Home Assistant - hassiohelp.eu crew | Python | 230 | 9 |
 | 2 | [ha-packages](https://github.com/jumping2000/ha-packages) | Home Assistant Packages | Python | 46 | 3 |
 | 3 | [notifier](https://github.com/jumping2000/notifier) *(archived)* | Appdaemon Notifier Centre for Home Assistant - hassiohelp.eu crew | Python | 32 | 6 |
 | 4 | [elettrodomestici](https://github.com/jumping2000/elettrodomestici) | — | — | 18 | 9 |
