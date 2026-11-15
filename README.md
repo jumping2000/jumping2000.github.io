@@ -14,11 +14,11 @@ Open source tools for AI, electronic circuits and smart home automation. Portfol
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#9](https://github.com/jumping2000/picobot/pull/9) in [jumping2000/picobot](https://github.com/jumping2000/picobot)
-2. 💪 Opened PR [#9](https://github.com/jumping2000/picobot/pull/9) in [jumping2000/picobot](https://github.com/jumping2000/picobot)
-3. ⬆️ Pushed to [jumping2000/picobot](https://github.com/jumping2000/picobot)
-4. ⬆️ Pushed to [jumping2000/jumping2000.github.io](https://github.com/jumping2000/jumping2000.github.io)
-5. ⭐ Starred [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+1. ⭐ Starred [imxv/Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills)
+2. 🎉 Merged PR [#9](https://github.com/jumping2000/picobot/pull/9) in [jumping2000/picobot](https://github.com/jumping2000/picobot)
+3. 💪 Opened PR [#9](https://github.com/jumping2000/picobot/pull/9) in [jumping2000/picobot](https://github.com/jumping2000/picobot)
+4. ⬆️ Pushed to [jumping2000/picobot](https://github.com/jumping2000/picobot)
+5. ⬆️ Pushed to [jumping2000/jumping2000.github.io](https://github.com/jumping2000/jumping2000.github.io)
 <!--END_SECTION:activity-->
 
 ---
