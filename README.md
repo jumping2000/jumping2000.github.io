@@ -14,11 +14,11 @@ Open source tools for AI, electronic circuits and smart home automation. Portfol
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [imxv/Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills)
-2. ⬆️ Pushed to [jumping2000/picobot](https://github.com/jumping2000/picobot)
-3. 🎉 Merged PR [#9](https://github.com/jumping2000/picobot/pull/9) in [jumping2000/picobot](https://github.com/jumping2000/picobot)
-4. 💪 Opened PR [#9](https://github.com/jumping2000/picobot/pull/9) in [jumping2000/picobot](https://github.com/jumping2000/picobot)
-5. ⬆️ Pushed to [jumping2000/jumping2000.github.io](https://github.com/jumping2000/jumping2000.github.io)
+1. 🎉 Merged PR [#16](https://github.com/jumping2000/advancedRAG/pull/16) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+2. 💪 Opened PR [#16](https://github.com/jumping2000/advancedRAG/pull/16) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+3. ⭐ Starred [imxv/Pretty-mermaid-skills](https://github.com/imxv/Pretty-mermaid-skills)
+4. ⬆️ Pushed to [jumping2000/picobot](https://github.com/jumping2000/picobot)
+5. 🎉 Merged PR [#9](https://github.com/jumping2000/picobot/pull/9) in [jumping2000/picobot](https://github.com/jumping2000/picobot)
 <!--END_SECTION:activity-->
 
 ---
