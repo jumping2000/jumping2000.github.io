@@ -14,11 +14,11 @@ Open source tools for AI, electronic circuits and smart home automation. Portfol
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#23](https://github.com/jumping2000/advancedRAG/pull/23) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-2. 💪 Opened PR [#23](https://github.com/jumping2000/advancedRAG/pull/23) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-3. 🎉 Merged PR [#22](https://github.com/jumping2000/advancedRAG/pull/22) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-4. 💪 Opened PR [#2](https://github.com/jumping2000/sdd-playbook/pull/2) in [jumping2000/sdd-playbook](https://github.com/jumping2000/sdd-playbook)
-5. 💪 Opened PR [#22](https://github.com/jumping2000/advancedRAG/pull/22) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+1. 🎉 Merged PR [#25](https://github.com/jumping2000/advancedRAG/pull/25) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+2. 💪 Opened PR [#25](https://github.com/jumping2000/advancedRAG/pull/25) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+3. 🎉 Merged PR [#24](https://github.com/jumping2000/advancedRAG/pull/24) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+4. 💪 Opened PR [#24](https://github.com/jumping2000/advancedRAG/pull/24) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+5. 🎉 Merged PR [#23](https://github.com/jumping2000/advancedRAG/pull/23) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
 <!--END_SECTION:activity-->
 
 ---
@@ -30,7 +30,7 @@ The 10 most popular original repositories, ranked by interactions (stars + forks
 <!--START_SECTION:projects-->
 | # | Project | Description | Language | ⭐ Stars | 🍴 Forks |
 |--:|---------|-------------|----------|-------:|-------:|
-| 1 | [universal_notifier](https://github.com/jumping2000/universal_notifier) | Universal Notifier for Home Assistant - hassiohelp.eu crew | Python | 230 | 9 |
+| 1 | [universal_notifier](https://github.com/jumping2000/universal_notifier) | Universal Notifier for Home Assistant - hassiohelp.eu crew | Python | 229 | 9 |
 | 2 | [ha-packages](https://github.com/jumping2000/ha-packages) | Home Assistant Packages | Python | 46 | 3 |
 | 3 | [notifier](https://github.com/jumping2000/notifier) *(archived)* | Appdaemon Notifier Centre for Home Assistant - hassiohelp.eu crew | Python | 32 | 6 |
 | 4 | [elettrodomestici](https://github.com/jumping2000/elettrodomestici) | — | — | 18 | 9 |
