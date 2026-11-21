@@ -14,11 +14,11 @@ Open source tools for AI, electronic circuits and smart home automation. Portfol
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#36](https://github.com/jumping2000/advancedRAG/pull/36) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-2. 🎉 Merged PR [#35](https://github.com/jumping2000/advancedRAG/pull/35) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-3. 💪 Opened PR [#35](https://github.com/jumping2000/advancedRAG/pull/35) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-4. 🎉 Merged PR [#34](https://github.com/jumping2000/advancedRAG/pull/34) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-5. 💪 Opened PR [#34](https://github.com/jumping2000/advancedRAG/pull/34) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+1. 💪 Opened PR [#40](https://github.com/jumping2000/advancedRAG/pull/40) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+2. 🎉 Merged PR [#39](https://github.com/jumping2000/advancedRAG/pull/39) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+3. 💪 Opened PR [#39](https://github.com/jumping2000/advancedRAG/pull/39) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+4. 🎉 Merged PR [#38](https://github.com/jumping2000/advancedRAG/pull/38) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+5. ⬆️ Pushed to [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
 <!--END_SECTION:activity-->
 
 ---
