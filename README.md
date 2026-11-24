@@ -14,11 +14,11 @@ Open source tools for AI, electronic circuits and smart home automation. Portfol
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills)
-2. 🎉 Merged PR [#41](https://github.com/jumping2000/advancedRAG/pull/41) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-3. 💪 Opened PR [#41](https://github.com/jumping2000/advancedRAG/pull/41) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-4. ⬆️ Pushed to [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
-5. 🎉 Merged PR [#40](https://github.com/jumping2000/advancedRAG/pull/40) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+1. 🍴 Forked [mbergo/all-rag-techniques](https://github.com/mbergo/all-rag-techniques)
+2. ⭐ Starred [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills)
+3. 🎉 Merged PR [#41](https://github.com/jumping2000/advancedRAG/pull/41) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+4. 💪 Opened PR [#41](https://github.com/jumping2000/advancedRAG/pull/41) in [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
+5. ⬆️ Pushed to [jumping2000/advancedRAG](https://github.com/jumping2000/advancedRAG)
 <!--END_SECTION:activity-->
 
 ---
